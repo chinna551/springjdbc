@@ -1,0 +1,963 @@
+2018-06-29 12:47:38 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-06-29 12:47:38 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-06-29 12:47:38 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-06-29 12:47:38 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Fri Jun 29 12:47:38 IST 2018]; root of context hierarchy
+2018-06-29 12:47:38 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-06-29 12:47:38 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-29 12:47:38 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-29 12:47:38 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:38 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-29 12:47:38 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-06-29 12:47:38 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-06-29 12:47:38 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-06-29 12:47:38 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-06-29 12:47:38 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-06-29 12:47:38 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-06-29 12:47:38 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-06-29 12:47:39 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-06-29 12:47:39 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-06-29 12:47:39 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-06-29 12:47:39 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-06-29 12:47:39 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-06-29 12:47:39 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-06-29 12:47:39 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-06-29 12:47:39 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-06-29 12:47:39 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-06-29 12:47:39 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-06-29 12:47:39 INFO  Main:16 - List of person is:
+2018-06-29 12:47:39 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-06-29 12:47:39 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-06-29 12:47:39 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-06-29 12:47:39 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-06-29 12:47:40 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-06-29 12:47:40 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-06-29 12:47:40 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-06-29 12:47:40 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-06-29 12:47:40 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-06-29 12:47:40 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-06-29 12:47:40 INFO  Main:21 - 
+Get person with ID 3
+2018-06-29 12:47:40 INFO  Main:23 - 
+2018-06-29 12:47:40 INFO  Main:25 - 
+Creating person: 
+2018-06-29 12:47:40 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-06-29 12:47:40 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-06-29 12:47:40 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-06-29 12:47:40 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-06-29 12:47:40 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-06-29 12:47:40 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-06-29 12:47:40 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-06-29 12:47:40 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-06-29 12:47:40 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-06-29 12:47:40 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-06-29 12:47:40 DEBUG BeansDtdResolver:74 - Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2018-06-29 12:47:40 DEBUG DefaultBeanDefinitionDocumentReader:92 - Loading bean definitions
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'DB2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'DB2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'DB2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Derby'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Derby'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Derby'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'H2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'H2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'H2' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'H2'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'HSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'HSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'HSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Informix'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Informix'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Informix'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'MS-SQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'MS-SQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'MS-SQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'MySQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'MySQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'MySQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Oracle'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Oracle'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Oracle'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'PostgreSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'PostgreSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'PostgreSQL'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Sybase'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Sybase'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Sybase'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Hana'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Hana'
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Hana' to allow for resolving potential circular references
+2018-06-29 12:47:40 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Hana'
+2018-06-29 12:47:40 INFO  SQLErrorCodesFactory:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-06-29 12:47:40 DEBUG SQLErrorCodesFactory:199 - Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1dc7102]
+2018-06-29 12:47:40 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-06-29 12:47:40 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-06-29 12:47:40 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-06-29 12:47:40 DEBUG SQLErrorCodesFactory:217 - Database product name cached for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1dc7102]: name is 'Oracle'
+2018-06-29 12:47:40 DEBUG SQLErrorCodesFactory:175 - SQL error codes for 'Oracle' found
+2018-06-29 12:47:40 DEBUG SQLErrorCodeSQLExceptionTranslator:397 - Translating SQLException with SQL state '23000', error code '1', message [ORA-00001: unique constraint (SYSTEM.SYS_C004053) violated
+]; SQL was [insert into people(id, first_name, last_name, age) values(?,?,?,?)] for task [PreparedStatementCallback]
+2018-07-01 07:43:58 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:43:58 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:43:58 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:43:58 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:43:58 IST 2018]; root of context hierarchy
+2018-07-01 07:43:58 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-07-01 07:43:59 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:43:59 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:43:59 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:43:59 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:43:59 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-07-01 07:43:59 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:43:59 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:43:59 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:43:59 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-07-01 07:43:59 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-07-01 07:43:59 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:43:59 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:43:59 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:44:00 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-07-01 07:44:00 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-07-01 07:44:00 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-07-01 07:44:01 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-07-01 07:44:01 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:44:01 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:44:02 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-07-01 07:44:02 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-07-01 07:44:02 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-07-01 07:44:02 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-07-01 07:44:02 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-07-01 07:44:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-07-01 07:44:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-07-01 07:44:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-07-01 07:44:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-07-01 07:44:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-07-01 07:44:03 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:44:04 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-07-01 07:44:04 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:44:05 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-01 07:44:05 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-01 07:44:05 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-07-01 07:44:05 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-01 07:44:05 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-07-01 07:44:05 INFO  Main:16 - List of person is:
+2018-07-01 07:44:05 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:44:05 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:44:05 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:44:05 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:44:07 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:44:07 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:44:07 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:44:07 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:44:07 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:44:07 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:44:07 INFO  Main:21 - 
+Get person with ID 3
+2018-07-01 07:44:07 INFO  Main:23 - 
+2018-07-01 07:44:07 INFO  Main:25 - 
+Creating person: 
+2018-07-01 07:44:07 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-07-01 07:44:07 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-07-01 07:44:07 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:44:07 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:44:09 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:44:09 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:44:09 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:44:09 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:44:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-01 07:44:09 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-07-01 07:44:09 DEBUG BeansDtdResolver:74 - Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2018-07-01 07:44:09 DEBUG DefaultBeanDefinitionDocumentReader:92 - Loading bean definitions
+2018-07-01 07:44:09 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'DB2'
+2018-07-01 07:44:09 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'DB2'
+2018-07-01 07:44:09 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'DB2'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Derby'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Derby'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Derby'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'H2'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'H2'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'H2' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'H2'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'HSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'HSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'HSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Informix'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Informix'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Informix'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'MS-SQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'MS-SQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'MS-SQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'MySQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'MySQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'MySQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Oracle'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Oracle'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Oracle'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'PostgreSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'PostgreSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'PostgreSQL'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Sybase'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Sybase'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Sybase'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'Hana'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'Hana'
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'Hana' to allow for resolving potential circular references
+2018-07-01 07:44:10 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'Hana'
+2018-07-01 07:44:10 INFO  SQLErrorCodesFactory:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-07-01 07:44:10 DEBUG SQLErrorCodesFactory:199 - Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1dc7102]
+2018-07-01 07:44:10 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:44:10 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:44:10 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:44:10 DEBUG SQLErrorCodesFactory:217 - Database product name cached for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1dc7102]: name is 'Oracle'
+2018-07-01 07:44:10 DEBUG SQLErrorCodesFactory:175 - SQL error codes for 'Oracle' found
+2018-07-01 07:44:10 DEBUG SQLErrorCodeSQLExceptionTranslator:397 - Translating SQLException with SQL state '23000', error code '1', message [ORA-00001: unique constraint (SYSTEM.SYS_C004053) violated
+]; SQL was [insert into people(id, first_name, last_name, age) values(?,?,?,?)] for task [PreparedStatementCallback]
+2018-07-01 07:51:01 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:51:01 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:51:01 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:51:01 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:51:01 IST 2018]; root of context hierarchy
+2018-07-01 07:51:01 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-07-01 07:51:01 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:51:01 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-07-01 07:51:02 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:51:02 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:51:02 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:51:02 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-07-01 07:51:02 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-07-01 07:51:02 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-07-01 07:51:02 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-07-01 07:51:02 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:51:02 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-07-01 07:51:02 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-07-01 07:51:02 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-07-01 07:51:02 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-07-01 07:51:02 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:51:02 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-07-01 07:51:02 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-01 07:51:02 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-07-01 07:51:02 INFO  Main:16 - List of person is:
+2018-07-01 07:51:02 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:51:02 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:51:02 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:51:02 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:51:03 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:51:03 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:51:03 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:51:03 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:21 - 
+Get person with ID 3
+2018-07-01 07:51:03 INFO  Main:23 - 
+2018-07-01 07:51:03 INFO  Main:25 - 
+Creating person: 
+2018-07-01 07:51:03 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-07-01 07:51:03 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-07-01 07:51:03 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:51:03 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:51:03 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2018-07-01 07:51:03 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:51:03 INFO  Main:29 - 
+List of person is:
+2018-07-01 07:51:03 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:51:03 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:51:03 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:51:03 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:51:03 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:51:03 INFO  Main:33 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:51:03 INFO  Main:37 - 
+Deleting person with ID 2
+2018-07-01 07:52:12 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:52:12 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:52:12 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:52:12 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:52:12 IST 2018]; root of context hierarchy
+2018-07-01 07:52:12 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-07-01 07:52:12 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:52:12 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:52:12 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:12 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-07-01 07:52:13 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:52:13 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:52:13 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:52:13 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-07-01 07:52:13 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-07-01 07:52:13 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-07-01 07:52:13 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-07-01 07:52:13 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:52:13 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-07-01 07:52:13 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-07-01 07:52:13 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-07-01 07:52:13 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-07-01 07:52:13 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:52:13 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-07-01 07:52:13 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-01 07:52:13 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-07-01 07:52:13 INFO  Main:16 - List of person is:
+2018-07-01 07:52:13 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:52:13 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:52:13 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:52:13 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:52:14 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:18 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:52:14 INFO  Main:21 - 
+Get person with ID 3
+2018-07-01 07:52:14 INFO  Main:23 - 
+2018-07-01 07:52:14 INFO  Main:25 - 
+Creating person: 
+2018-07-01 07:52:14 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-07-01 07:52:14 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-07-01 07:52:14 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:52:14 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:52:14 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2018-07-01 07:52:14 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:52:14 INFO  Main:29 - 
+List of person is:
+2018-07-01 07:52:14 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:52:14 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:52:14 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:52:14 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:52:14 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:52:14 INFO  Main:33 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:52:14 INFO  Main:42 - 
+Update person with ID 4
+2018-07-01 07:54:02 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:54:02 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:54:02 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:54:02 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:54:02 IST 2018]; root of context hierarchy
+2018-07-01 07:54:02 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-07-01 07:54:02 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:54:02 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:54:02 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:02 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:54:02 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-07-01 07:54:02 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:54:02 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:54:02 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:54:02 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-07-01 07:54:03 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-07-01 07:54:03 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-07-01 07:54:03 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-07-01 07:54:03 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:54:03 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-07-01 07:54:03 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-07-01 07:54:03 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-07-01 07:54:03 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-07-01 07:54:03 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:54:03 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-07-01 07:54:03 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-01 07:54:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-07-01 07:54:03 INFO  Main:16 - List of person is:
+2018-07-01 07:54:03 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:54:03 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:54:03 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:54:03 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:54:04 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:54:04 INFO  Main:18 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:54:04 INFO  Main:21 - 
+Get person with ID 3
+2018-07-01 07:54:04 INFO  Main:23 - 
+2018-07-01 07:54:04 INFO  Main:25 - 
+Creating person: 
+2018-07-01 07:54:04 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-07-01 07:54:04 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-07-01 07:54:04 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:54:04 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:54:04 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2018-07-01 07:54:04 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:54:04 INFO  Main:29 - 
+List of person is:
+2018-07-01 07:54:04 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:54:04 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:54:04 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:54:04 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:54:04 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:54:04 INFO  Main:33 - Person{id=21, age=27, firstName='chinappa', lastName='kandi'}
+2018-07-01 07:54:04 INFO  Main:42 - 
+Update person with ID 6
+2018-07-01 07:55:50 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:55:50 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:55:50 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:55:50 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:55:50 IST 2018]; root of context hierarchy
+2018-07-01 07:55:50 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG StandardEnvironment:109 - Adding [class path resource [database.properties]] PropertySource with lowest search precedence
+2018-07-01 07:55:50 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-01 07:55:50 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-01 07:55:50 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/journaldev/spring/] to resources [URL [file:/C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/]]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao] for files matching pattern [C:/Users/chinna/Desktop/Springjdbcexamples/SpringJDBCTemplateExample/target/classes/com/journaldev/spring/**/*.class]
+2018-07-01 07:55:50 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/journaldev/spring/**/*.class] to resources [file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\config\AppConfig.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAO.class], file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]]
+2018-07-01 07:55:50 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\chinna\Desktop\Springjdbcexamples\SpringJDBCTemplateExample\target\classes\com\journaldev\spring\dao\PersonDAOImpl.class]
+2018-07-01 07:55:50 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method com.journaldev.spring.config.AppConfig.dataSource()
+2018-07-01 07:55:50 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.journaldev.spring.config.AppConfig; enhanced class name is: com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9
+2018-07-01 07:55:50 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.journaldev.spring.config.AppConfig' with enhanced class 'com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:55:50 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@10c2d26]
+2018-07-01 07:55:50 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@c4711c]
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-07-01 07:55:50 DEBUG InjectionMetadata:72 - Registered injected element on class [com.journaldev.spring.config.AppConfig$$EnhancerBySpringCGLIB$$10767d9]: AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-07-01 07:55:50 DEBUG InjectionMetadata:86 - Processing injected element of bean 'appConfig': AutowiredFieldElement for org.springframework.core.env.Environment com.journaldev.spring.config.AppConfig.environment
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'environment'
+2018-07-01 07:55:50 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'appConfig' to bean named 'environment'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'personDAOImpl'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'personDAOImpl'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'dataSource'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'dataSource'
+2018-07-01 07:55:50 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemProperties]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [systemEnvironment]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'url' in [class path resource [database.properties]]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:90 - Found key 'url' in [class path resource [database.properties]] with type [String] and value 'jdbc:oracle:thin:@localhost:1521:xe'
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemProperties]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [systemEnvironment]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbuser' in [class path resource [database.properties]]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbuser' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemProperties]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [systemEnvironment]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'dbpassword' in [class path resource [database.properties]]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:90 - Found key 'dbpassword' in [class path resource [database.properties]] with type [String] and value 'system'
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemProperties]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [systemEnvironment]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'driver' in [class path resource [database.properties]]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:90 - Found key 'driver' in [class path resource [database.properties]] with type [String] and value 'oracle.jdbc.driver.OracleDriver'
+2018-07-01 07:55:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'dataSource'
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'personDAOImpl' via constructor to bean named 'dataSource'
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'personDAOImpl' to allow for resolving potential circular references
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'personDAOImpl'
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'dataSource'
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-07-01 07:55:51 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5c96b]
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [database.properties]]
+2018-07-01 07:55:51 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'personDAOImpl'
+2018-07-01 07:55:51 INFO  Main:16 - List of person is:
+2018-07-01 07:55:51 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:55:51 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:55:51 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:18 - Person{id=21, age=27, firstName='chinappa', lastName='kandi'}
+2018-07-01 07:55:51 INFO  Main:21 - 
+Get person with ID 3
+2018-07-01 07:55:51 INFO  Main:23 - 
+2018-07-01 07:55:51 INFO  Main:25 - 
+Creating person: 
+2018-07-01 07:55:51 DEBUG JdbcTemplate:869 - Executing prepared SQL update
+2018-07-01 07:55:51 DEBUG JdbcTemplate:616 - Executing prepared SQL statement [insert into people(id, first_name, last_name, age) values(?,?,?,?)]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:55:51 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:55:51 DEBUG JdbcTemplate:879 - SQL update affected 1 rows
+2018-07-01 07:55:51 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:55:51 INFO  Main:29 - 
+List of person is:
+2018-07-01 07:55:51 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:55:51 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:55:51 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=21, age=27, firstName='chinappa', lastName='kandi'}
+2018-07-01 07:55:51 INFO  Main:33 - Person{id=22, age=27, firstName='chennappa', lastName='kandi'}
+2018-07-01 07:55:51 INFO  Main:48 - 
+List of person is:
+2018-07-01 07:55:51 INFO  PersonDAOImpl:38 - Fetching all the details
+2018-07-01 07:55:51 DEBUG JdbcTemplate:451 - Executing SQL query [select * from people]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:110 - Fetching JDBC Connection from DataSource
+2018-07-01 07:55:51 DEBUG DriverManagerDataSource:142 - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@localhost:1521:xe]
+2018-07-01 07:55:51 DEBUG DataSourceUtils:327 - Returning JDBC Connection to DataSource
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=1, age=27, firstName='Chinnappa', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=18, age=36, firstName='Sergey', lastName='Emets'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=3, age=24, firstName='Mallareddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=4, age=25, firstName='Srinu', lastName='CHANGED'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=6, age=25, firstName='SrinuReddy', lastName='Kandi'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=19, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=20, age=36, firstName='chr', lastName='k'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=21, age=27, firstName='chinappa', lastName='kandi'}
+2018-07-01 07:55:51 INFO  Main:51 - Person{id=22, age=27, firstName='chennappa', lastName='kandi'}
+2018-07-01 07:55:51 INFO  AnnotationConfigApplicationContext:982 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@157fcb0: startup date [Sun Jul 01 07:55:50 IST 2018]; root of context hierarchy
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-01 07:55:51 DEBUG DefaultListableBeanFactory:512 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd1b6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,personDAOImpl,dataSource]; root of factory hierarchy
